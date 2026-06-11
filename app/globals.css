@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #070B14;
+  --color-primary-light: #111827;
+  --color-secondary: #CBD5E1;
+  --color-accent: #C99A55;
+  --color-accent-hover: #A97836;
+  --color-background: #080D18;
+  --color-foreground: #F8FAFC;
+  --color-muted: #334155;
+  --color-surface: #111827;
+  --color-surface-strong: #1F2937;
+  --font-serif: var(--font-eb-garamond), serif;
+  --font-sans: var(--font-lato), sans-serif;
+}
+
+:root {
+  --font-eb-garamond: 'EB Garamond', serif;
+  --font-lato: 'Lato', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-lato), sans-serif;
+  background: #080D18;
+  color: #F8FAFC;
+}
+
+.glass-effect {
+  @apply bg-surface/90 backdrop-blur-md border border-accent/25 shadow-lg shadow-black/20;
+}
