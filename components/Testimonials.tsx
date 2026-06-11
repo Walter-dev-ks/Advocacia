@@ -5,17 +5,17 @@ import { Star } from 'lucide-react';
 
 const testimonials = [
   {
-    text: 'Nao precisei me preocupar com nada, so recebi o dinheiro no final do processo.',
+    text: 'Dr Allison e um cara onesto transparente e comprometido com as causas que assume obrigado dr só tenho a agradecer pelos seus serviços, super recomendo',
     client: 'Gabriel Almeida',
     stars: 5,
   },
   {
-    text: 'Sou imensamente grato a pessoa e ao profissional que e o Dr. e toda sua equipe.',
+    text: 'Excelente profissional, ótimo atendimento e atencioso. Valor bem justo!!',
     client: 'Ricardo Rodrigues',
     stars: 5,
   },
   {
-    text: 'Otimos profissionais, exemplo no que fazem.',
+    text: 'Foi muito bom trabalho com o Dr Alisson ótimo advogado e conseguiu ganhar minha causa e só tenho que agradecer',
     client: 'Valdir Ferreira',
     stars: 5,
   },
