@@ -17,7 +17,7 @@ export default function About() {
         >
           <div className="relative z-10 aspect-[4/5] overflow-hidden rounded-[3rem] border-4 border-muted bg-surface-strong shadow-2xl shadow-black/30">
             <Image
-              src="/allisson-acioli.png"
+              src="/imagemAbout.png"
               alt="Dr. Allisson Acioli"
               fill
               sizes="(min-width: 768px) 45vw, 100vw"
