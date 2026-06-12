@@ -37,11 +37,11 @@ export default function Hero() {
         >
           <div className="inline-flex items-center gap-2 bg-accent/15 text-accent px-4 py-1 rounded-full text-sm font-bold border border-accent/20">
             <ShieldCheck size={16} />
-            <span>Especialista em direito de vitimas de acidentes</span>
+            <span>Especialista em direito de vítimas de acidentes</span>
           </div>
 
           <h1 className="text-5xl md:text-7xl font-serif font-bold text-white leading-[1.1]">
-            Justica e Especialidade em <br />
+            Justiça e Especialidade em <br />
             <span className="text-accent relative">
               Direitos de Acidentes
               <motion.span
@@ -54,9 +54,9 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-slate-200 max-w-lg leading-relaxed">
-            Advogado e escritorio de advocacia em Joinville - SC, com atuacao em vitimas de acidentes,
-            indenizacoes, seguros, beneficios do INSS, civel e trabalhista.
-            <span className="font-semibold"> Transparencia e foco no seu resultado.</span>
+            Advogado e escritório de advocacia em Joinville - SC, com atuação em vítimas de acidentes,
+            indenizações, seguros, benefícios do INSS, cível e trabalhista.
+            <span className="font-semibold"> Transparência e fôco no seu resultado.</span>
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -89,7 +89,7 @@ export default function Hero() {
               {[...Array(5)].map((_, i) => (
                 <Star key={i} size={16} className="fill-yellow-400 text-yellow-400" />
               ))}
-              <span className="font-bold text-slate-100 ml-2">5.0 ★ (82 avaliacoes)</span>
+              <span className="font-bold text-slate-100 ml-2">5.0 ★ (82 avaliações)</span>
             </div>
           </motion.div>
         </motion.div>
@@ -111,7 +111,7 @@ export default function Hero() {
                 className="object-cover object-[50%_18%]"
               />
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-primary via-primary/80 to-transparent p-8 pt-28">
-                <p className="text-sm uppercase tracking-widest font-bold text-accent mb-2">Excelencia Juridica</p>
+                <p className="text-sm uppercase tracking-widest font-bold text-accent mb-2">Excelência Jurídica</p>
                 <h3 className="text-3xl font-serif font-bold">Allisson Acioli</h3>
                 <p className="mt-3 flex items-center gap-2 text-sm font-semibold text-slate-200">
                   <MapPin size={16} className="text-accent" />
