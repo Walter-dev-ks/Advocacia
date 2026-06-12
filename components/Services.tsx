@@ -5,38 +5,38 @@ import { Briefcase, Car, FileText, Heart, Home, ShieldCheck } from 'lucide-react
 
 const services = [
   {
-    title: 'Vitimas de Acidentes',
-    desc: 'Atendimento juridico para quem sofreu acidentes de transito, domesticos, esportivos ou de trabalho.',
+    title: 'Vítimas de Acidentes',
+    desc: 'Atendimento jurídico para quem sofreu acidentes de trânsito, domésticos, esportivos ou de trabalho.',
     icon: Car,
     color: 'text-accent',
   },
   {
-    title: 'Indenizacoes',
-    desc: 'Atuacao em busca de reparacao por danos materiais, morais, fisicos e demais prejuizos sofridos.',
+    title: 'Indenizações',
+    desc: 'Atuação em busca de reparação por danos materiais, morais, físicos e demais prejuízos sofridos.',
     icon: ShieldCheck,
     color: 'text-accent',
   },
   {
     title: 'Seguros',
-    desc: 'Suporte em negativas, coberturas, revisoes e cobrancas relacionadas a contratos de seguro.',
+    desc: 'Suporte em negativas, coberturas, revisões e cobranças relacionadas a contratos de seguro.',
     icon: Home,
     color: 'text-accent',
   },
   {
     title: 'Beneficios do INSS',
-    desc: 'Orientacao em beneficios previdenciarios ligados a incapacidade, afastamento e recuperacao.',
+    desc: 'Orientação em benefícios previdenciários ligados a incapacidade, afastamento e recuperação.',
     icon: FileText,
     color: 'text-accent',
   },
   {
     title: 'Civel e Trabalhista',
-    desc: 'Assessoria em demandas civeis e trabalhistas com estrategia, clareza e acompanhamento proximo.',
+    desc: 'Assessoria em demandas cíveis e trabalhistas com estratégia, clareza e acompanhamento próximo.',
     icon: Briefcase,
     color: 'text-accent',
   },
   {
     title: 'Atendimento Humanizado',
-    desc: 'Escritorio comprometido com acolhimento, respeito, transparencia e comunicacao direta.',
+    desc: 'Escritório comprometido com acolhimento, respeito, transparência e comunicação direta.',
     icon: Heart,
     color: 'text-accent',
   },
@@ -62,7 +62,7 @@ export default function Services() {
             transition={{ delay: 0.2 }}
             className="text-lg text-slate-200"
           >
-            Atuacao focada em vitimas de acidentes, seguros, INSS e defesa de direitos.
+            Atuação focada em vítimas de acidentes, seguros, INSS e defesa de direitos.
           </motion.p>
         </div>
 
