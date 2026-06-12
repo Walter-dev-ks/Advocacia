@@ -25,7 +25,7 @@ export default function Contact() {
             Agende sua Consulta
           </h2>
           <p className="text-lg text-slate-200 mb-12 max-w-2xl mx-auto">
-            Nao deixe seus direitos prescreverem. Entre em contato agora para uma analise detalhada do seu caso.
+            Não deixe seus direitos prescreverem. Entre em contato agora para uma análise detalhada do seu caso.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
