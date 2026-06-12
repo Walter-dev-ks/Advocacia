@@ -49,22 +49,22 @@ export default function About() {
           </div>
 
           <p className="text-xl font-bold text-accent italic">
-            "Comprometimento, honestidade e transparencia."
+            "Comprometimento, honestidade e transparência."
           </p>
           <p className="text-lg text-slate-200 leading-relaxed">
-            Advogado e escritorio de advocacia em Joinville - SC, com atendimento voltado a vitimas de
-            acidentes, indenizacoes, seguros e beneficios do INSS.
+            Advogado e escritório de advocacia em Joinville - SC, com atendimento voltado a vítimas de
+            acidentes, indenizações, seguros e benefícios do INSS.
           </p>
           <p className="text-lg text-slate-200 leading-relaxed">
-            A atuacao tambem inclui demandas civeis e trabalhistas, com atendimento direto,
+            A atuação também inclui demandas cíveis e trabalhistas, com atendimento direto,
             acolhedor e orientado para resultados.
           </p>
 
           <ul className="space-y-4 pt-4">
             {[
-              'Vitimas de acidentes e indenizacoes',
-              'Seguros, DPVAT e beneficios do INSS',
-              'Demandas civeis e trabalhistas',
+              'Vítimas de acidentes e indenizações',
+              'Seguros, DPVAT e benefícios do INSS',
+              'Demandas cíveis e trabalhistas',
             ].map((benefit, i) => (
               <motion.li
                 key={benefit}
