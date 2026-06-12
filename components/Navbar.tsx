@@ -16,7 +16,7 @@ export default function Navbar() {
   const navItems = [
     { name: 'Sobre', href: '#sobre' },
     { name: 'Especialidades', href: '#especialidades' },
-    { name: 'Avaliacoes', href: '#depoimentos' },
+    { name: 'Avaliações', href: '#depoimentos' },
   ];
 
   return (
