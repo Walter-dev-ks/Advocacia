@@ -5,7 +5,7 @@ import { Star } from 'lucide-react';
 
 const testimonials = [
   {
-    text: 'Dr Allison e um cara onesto transparente e comprometido com as causas que assume obrigado dr só tenho a agradecer pelos seus serviços, super recomendo',
+    text: 'Dr Allison é um cara onesto transparente e comprometido com as causas que assume obrigado dr só tenho a agradecer pelos seus serviços, super recomendo',
     client: 'Gabriel Almeida',
     stars: 5,
   },
@@ -41,7 +41,7 @@ export default function Testimonials() {
             transition={{ delay: 0.2 }}
             className="text-lg text-slate-300"
           >
-            A satisfacao dos clientes reflete um atendimento proximo, claro e comprometido.
+            A satisfação dos clientes reflete um atendimento próximo, claro e comprometido.
           </motion.p>
         </div>
 
