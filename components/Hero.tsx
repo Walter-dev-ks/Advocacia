@@ -121,16 +121,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <motion.div
-            animate={{ y: [0, 15, 0] }}
-            transition={{ duration: 5, repeat: Infinity }}
-            className="absolute -top-10 -right-10 p-4 bg-surface shadow-lg shadow-black/30 rounded-2xl z-20 flex items-center gap-3 border border-accent/20 text-white"
-          >
-            <div className="p-2 bg-green-100 text-green-600 rounded-full">
-              <ShieldCheck size={20} />
-            </div>
-            <span className="text-sm font-bold">Casos Ganhos</span>
-          </motion.div>
+          
         </motion.div>
       </div>
     </section>
